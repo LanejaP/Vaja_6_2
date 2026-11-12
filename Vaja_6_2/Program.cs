@@ -8,7 +8,8 @@ namespace Vaja_6_2
 {
     public class Krog
     {
-        private double r; 
-
+        static void Main(string[] args)
+        {
+        }
     }
 }
