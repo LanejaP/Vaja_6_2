@@ -18,5 +18,9 @@ namespace Vaja_6_2
         {
             this.r = r;
         }
+        public void Nastavi(double r)
+        {
+            this.r = r;
+        }
     }
 }
