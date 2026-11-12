@@ -9,5 +9,14 @@ namespace Vaja_6_2
     public class Krog
     {
         private double r;
+        public Krog()
+        {
+            r = 1;
+        }
+
+        public Krog(double r)
+        {
+            this.r = r;
+        }
     }
 }
