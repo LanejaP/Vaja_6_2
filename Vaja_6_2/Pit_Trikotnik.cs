@@ -11,6 +11,7 @@ namespace Vaja_6_2
         private double a;
         private double b;
         private double c;
+        private double va;
         Pit_Trikotnik()
         {
             a = 3;
@@ -30,6 +31,14 @@ namespace Vaja_6_2
             b = double.Parse(Console.ReadLine());
             Console.WriteLine("Vnesi dolžino stranice c: ");
             c = double.Parse(Console.ReadLine());
+        }
+        public double Obseg()
+        {
+            return a + b + c;
+        }
+        public double Ploscina()
+        {
+            return a * va / 2;
         }
     }
 }
