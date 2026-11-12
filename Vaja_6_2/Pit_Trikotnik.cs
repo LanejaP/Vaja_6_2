@@ -22,7 +22,14 @@ namespace Vaja_6_2
             c = a * a + b * b;
             Math.Sqrt(c);
         }
-
-
+        public void Nastavi()
+        {
+            Console.WriteLine("Vnesi dolžino stranice a: ");
+            a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Vnesi dolžino stranice b: ");
+            b = double.Parse(Console.ReadLine());
+            Console.WriteLine("Vnesi dolžino stranice c: ");
+            c = double.Parse(Console.ReadLine());
+        }
     }
 }
