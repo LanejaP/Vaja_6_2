@@ -6,22 +6,26 @@ using System.Threading.Tasks;
 
 namespace Vaja_6_2
 {
-    class Pit_Trikotnik
+    public class Pit_Trikotnik
     {
         private double a;
         private double b;
         private double c;
         private double va;
-        Pit_Trikotnik()
+        public Pit_Trikotnik()
         {
             a = 3;
             b = 4;
             c = 5;
+            va = 6;
         }
-        Pit_Trikotnik(double a, double b)
-        {
+        public Pit_Trikotnik(double a, double b, double va)
+        { 
             c = a * a + b * b;
             Math.Sqrt(c);
+            this.va = va;
+            this.a = a;
+            this.b = b;
         }
         public void Nastavi()
         {
