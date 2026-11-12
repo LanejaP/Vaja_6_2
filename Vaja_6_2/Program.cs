@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Vaja_6_2
 {
+    class Pit_Trikotnik
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
