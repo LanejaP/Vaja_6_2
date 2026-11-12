@@ -7,10 +7,14 @@ using System.Threading.Tasks;
 
 namespace Vaja_6_2
 {
-    internal class Program
+
+    class Program
     {
         static void Main(string[] args)
         {
+ Pit_trikotnik2
+            Pit_Trikotnik t = new Pit_Trikotnik(6, 8, 10);
+            Console.WriteLine(t.Ploscina());
 
             Krog k1 = new Krog(5);
             Krog k2 = new Krog(6);
