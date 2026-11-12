@@ -10,6 +10,12 @@ namespace Vaja_6_2
     {
         static void Main(string[] args)
         {
+            Krog k1 = new Krog(5);
+            Krog k2 = new Krog(6);
+
+            Console.WriteLine("Ploscina prvega kroga: " + k1.Ploscina());
+            Console.WriteLine("Ploscina drugega kroga: " + k2.Ploscina());
+
         }
     }
 }

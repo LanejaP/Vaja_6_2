@@ -31,5 +31,7 @@ namespace Vaja_6_2
         {
             return Math.PI * r * r;
         }
+        Krog k1 = new Krog(5);
+        Krog k2 = new Krog(6);
     }
 }
