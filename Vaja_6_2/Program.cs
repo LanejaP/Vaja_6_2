@@ -12,6 +12,13 @@ namespace Vaja_6_2
         static void Main(string[] args)
         {
 
+            Krog k1 = new Krog(5);
+            Krog k2 = new Krog(6);
+
+            Console.WriteLine("Ploscina prvega kroga: " + k1.Ploscina());
+            Console.WriteLine("Ploscina drugega kroga: " + k2.Ploscina());
+
+
             Pravokotnik p1 = new Pravokotnik();
             p1.NastaviVrednosti(3, 3);
 
@@ -22,6 +29,7 @@ namespace Vaja_6_2
 
             Console.WriteLine("Obseg prvega pravokotnika: " + p1.Obseg());
             Console.WriteLine("Obseg drugega pravokotnika: " + p2.Obseg());
+
 
         }
     }
