@@ -43,7 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+ Pit_trikotnik2
     <Compile Include="Pit_Trikotnik.cs" />
+
+    <Compile Include="Krog.cs" />
+    <Compile Include="Class1.cs" />
+
+ 
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
