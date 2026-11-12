@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Vaja_6_2
 {
-    internal class Program
+    public class Krog
     {
         static void Main(string[] args)
         {
